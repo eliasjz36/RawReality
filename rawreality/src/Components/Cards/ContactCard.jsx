@@ -46,7 +46,8 @@ const ContactCard = () => {
                 <div>
                     <h3 className="mb-5">Déjanos tu mensaje.</h3>
 
-                    <form method="POST" id="form">
+                    <form name="contact-form" data-netliy="true" method="POST" id="form">
+                        <input type="hidden" name="form-name" value="contact-form" />.
                         <div className="m-2">
                             <input
                                 type="text"
